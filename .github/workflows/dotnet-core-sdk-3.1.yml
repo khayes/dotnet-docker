@@ -21,4 +21,4 @@ jobs:
           repository: khayes/dotnet-core-sdk
           tags: 3.1
           push: false
-          target: ./dotnet-core-sdk/3.1/Dockerfile
+          dockerfile: ./dotnet-core-sdk/3.1/Dockerfile
