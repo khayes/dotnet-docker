@@ -18,7 +18,7 @@ jobs:
         env:
           DOCKER_PUSH: false
           DOCKER_PUSH_TEST: ${{ contains(github.ref, '3.1') }}
-          BRANCH_TEST: $ {{ env.github.ref }}
+          BRANCH_TEST: ${{ env.github.ref }}
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
